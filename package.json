@@ -30,7 +30,9 @@
   },
   "homepage": "https://github.com/Brightspace/valence-ui-breadcrumbs",
   "dependencies": {
-    "bower": "^1.7.7"
+    "bower": "^1.7.7",
+    "vui-link": "git://github.com/Brightspace/valence-ui-link.git#bsi-wc",
+    "vui-typography": "git://github.com/Brightspace/valence-ui-typography.git#bsi-wc"
   },
   "devDependencies": {
     "csslint": "^0.10.0",

@@ -1,6 +1,6 @@
 @import 'breadcrumbs-icons.scss';
-@import 'bower_components/vui-link/link.scss';
-@import 'bower_components/vui-typography/small-text.scss';
+@import 'node_modules/vui-link/link.scss';
+@import 'node_modules/vui-typography/small-text.scss';
 
 @mixin vui-breadcrumbs() {
 	@include vui-typography-small-text;
