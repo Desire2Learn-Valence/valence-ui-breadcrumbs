@@ -1,13 +1,11 @@
 {
   "name": "vui-breadcrumbs",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Mixins and CSS for applying breadcrumb styles",
   "scripts": {
     "clean": "rimraf *.css",
     "prebuild": "npm run clean && imgtoscss -p vui- -o breadcrumbs-icons.scss *.svg",
-    "build": "npm run build:styles && npm run build:docs",
-    "build:styles": "node-sass --output-style expanded breadcrumbs.css.scss breadcrumbs.css && cp breadcrumbs.css ./test",
-    "build:docs": "node-sass --output-style expanded ./screenshots/screenshots.scss ./test/screenshots.css && npm run snapshot",
+    "build": "node-sass --output-style expanded breadcrumbs.css.scss breadcrumbs.css && cp breadcrumbs.css ./test",
     "postinstall": "bower install",
     "snapshot": "phantomjs ./screenshots/build.js",
     "perceptual-diff": "percy snapshot test/",
@@ -16,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Brightspace/valence-ui-breadcrumbs.git"
+    "url": "https://github.com/Brightspace/d2l-breadcrumbs-ui.git"
   },
   "keywords": [
     "d2l",
@@ -26,9 +24,9 @@
   "author": "D2L Corporation",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Brightspace/valence-ui-breadcrumbs/issues"
+    "url": "https://github.com/Brightspace/d2l-breadcrumbs-ui/issues"
   },
-  "homepage": "https://github.com/Brightspace/valence-ui-breadcrumbs",
+  "homepage": "https://github.com/Brightspace/d2l-breadcrumbs-ui",
   "dependencies": {
     "bower": "^1.7.7"
   },
