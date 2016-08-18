@@ -3,7 +3,7 @@
   "main": "breadcrumbs.scss",
   "license": "Apache-2.0",
   "dependencies": {
-	"d2l-colors": "~2.0.0"
+	"d2l-colors": "^2.0.0"
   },
   "ignore": [
     "test",
