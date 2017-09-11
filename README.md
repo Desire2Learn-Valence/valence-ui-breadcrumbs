@@ -75,7 +75,7 @@ See the [VUI Best Practices & Style Guide](https://github.com/Brightspace/valenc
 [bower-image]: https://img.shields.io/bower/v/vui-breadcrumbs.svg
 [npm-url]: https://www.npmjs.org/package/vui-breadcrumbs
 [npm-image]: https://img.shields.io/npm/v/vui-breadcrumbs.svg
-[ci-url]: https://travis-ci.org/Brightspace/valence-ui-breadcrumbs
-[ci-image]: https://travis-ci.org/Brightspace/valence-ui-breadcrumbs.svg?branch=master
-[dependencies-url]: https://david-dm.org/brightspace/valence-ui-breadcrumbs
-[dependencies-image]: https://img.shields.io/david/Brightspace/valence-ui-breadcrumbs.svg
+[ci-url]: https://travis-ci.org/Brightspace/d2l-breadcrumbs-ui
+[ci-image]: https://travis-ci.org/Brightspace/d2l-breadcrumbs-ui.svg?branch=master
+[dependencies-url]: https://david-dm.org/brightspace/d2l-breadcrumbs-ui
+[dependencies-image]: https://img.shields.io/david/Brightspace/d2l-breadcrumbs-ui.svg
