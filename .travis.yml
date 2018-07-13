@@ -1,16 +1,16 @@
 language: node_js
 node_js:
-- 5.6
+  - 5.6
 before_script:
-- gem install percy-cli
+  - gem install percy-cli
 after_success:
-- '[ "$TRAVIS_SECURE_ENV_VARS" = "true" ] && npm run perceptual-diff'
+  - '[ "$TRAVIS_SECURE_ENV_VARS" = "true" ] && npm run perceptual-diff'
 sudo: false
 deploy:
-  provider: npm
-  email: d2ltravisdeploy@d2l.com
-  api_key:
-    secure: MXtjtXFLjnjcRwPL613K3AWjAgnQmpvQA9Fj0C26/H7GWF5VZ0IyBf3/2NozZWGtICk8sttLeHcgQtwX5ZNMN7tqDcbkgsgD9lAHWsvYTR9hKs3LQaxK+YroHcDfaH5LylO5CkxeNfbM+BEqnnybxMIfSP2I3WqcIK1sULPqNpc=
+  provider: script
+  script: echo "npm credentials were revoked on 2018-07-12. We regenerated many
+    credentials, but this repository had no changes in at least 18 months and
+    was skipped. Reconfigure npm deployments. -omsmith"; exit 1
   on:
     tags: true
     all_branches: true
